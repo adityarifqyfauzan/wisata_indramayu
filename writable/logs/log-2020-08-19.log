@@ -1,0 +1,52 @@
+CRITICAL - 2020-08-19 00:42:25 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\admin\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Admin\Dashboard.php(34): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard->index()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-19 13:59:54 --> Undefined variable: akses
+#0 C:\xampp\htdocs\wisata_indramayu\app\Models\TempatWisataModel.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(73): App\Models\TempatWisataModel->getLokasiWisata('balongan')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-19 21:58:13 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 219, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(64): App\Controllers\Webhook\DialogflowRespond->sendRichMessageForWisataList(Array, 'Hello')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-19 21:58:23 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 219, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(64): App\Controllers\Webhook\DialogflowRespond->sendRichMessageForWisataList(Array, 'Hello')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-19 21:58:49 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 219, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(64): App\Controllers\Webhook\DialogflowRespond->sendRichMessageForWisataList(Array, 'Hello')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-19 22:00:57 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 219, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(64): App\Controllers\Webhook\DialogflowRespond->sendRichMessageForWisataList(Array, 'Hello')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

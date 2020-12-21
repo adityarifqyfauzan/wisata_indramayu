@@ -1,0 +1,93 @@
+CRITICAL - 2020-07-20 01:27:54 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wisata_indramayu\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pengelola\Auth.php(56): CodeIgniter\Model->first()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pengelola\Auth->login()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengelola\Auth))
+#7 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-07-20 01:29:04 --> syntax error, unexpected '}', expecting ')'
+#0 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-07-20 01:36:12 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-07-20 01:36:16 --> Undefined variable: title
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\pengelola\pengelola_layout.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(257): CodeIgniter\View\View->render('pengelola/penge...', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/galer...', Array, true)
+#4 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pengelola\Galeri.php(22): view('pengelola/galer...')
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pengelola\Galeri->index()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengelola\Galeri))
+#7 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-07-20 02:52:36 --> Undefined variable: data
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\general_layout.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(257): CodeIgniter\View\View->render('general_layout', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('tentang', Array, true)
+#4 C:\xampp\htdocs\wisata_indramayu\app\Controllers\GeneralPages.php(42): view('tentang', Array)
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\GeneralPages->tentang()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GeneralPages))
+#7 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-07-20 02:53:51 --> Undefined variable: data
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\general_layout.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(257): CodeIgniter\View\View->render('general_layout', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('tentang', Array, true)
+#4 C:\xampp\htdocs\wisata_indramayu\app\Controllers\GeneralPages.php(42): view('tentang', Array)
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\GeneralPages->tentang()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GeneralPages))
+#7 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-07-20 13:47:29 --> Undefined variable: foto
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\pengelola\galeri\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/galer...', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pengelola\Galeri.php(26): view('pengelola/galer...', Array)
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pengelola\Galeri->index()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengelola\Galeri))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-07-20 14:26:23 --> Undefined variable: validation
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\pengelola\galeri\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/galer...', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pengelola\Galeri.php(27): view('pengelola/galer...', Array)
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pengelola\Galeri->index()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengelola\Galeri))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

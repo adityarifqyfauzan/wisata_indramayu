@@ -1,0 +1,123 @@
+CRITICAL - 2020-07-02 00:34:52 --> Allowed fields must be specified for model: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(100): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-02 00:35:30 --> Allowed fields must be specified for model: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(100): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-02 00:35:48 --> Allowed fields must be specified for model: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(100): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-02 00:43:00 --> Allowed fields must be specified for model: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(100): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-02 00:44:59 --> Allowed fields must be specified for model: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(100): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-02 00:47:01 --> Allowed fields must be specified for model: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(99): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-02 05:03:09 --> Allowed fields must be specified for model: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(99): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-02 05:05:05 --> Allowed fields must be specified for model: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(99): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-02 05:08:49 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-07-02 10:32:20 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\wisata_indramayu\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `de...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `de...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `de...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseBuilder.php(2836): CodeIgniter\Database\BaseConnection->query('DELETE FROM `de...', Array, false)
+#4 C:\xampp\htdocs\wisata_indramayu\system\Model.php(952): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(170): CodeIgniter\Model->delete()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->verify()
+#7 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#8 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-07-02 10:58:30 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-07-02 10:59:13 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

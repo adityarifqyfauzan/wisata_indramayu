@@ -1,0 +1,72 @@
+CRITICAL - 2020-08-10 20:02:59 --> Undefined index: keteranganwisata
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(40): App\Controllers\Webhook\DialogflowRespond->getParameters(Array, 'keteranganwisat...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-10 20:07:05 --> Undefined index: keterangan
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(40): App\Controllers\Webhook\DialogflowRespond->getParameters(Array, 'keterangan')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-10 20:08:11 --> Undefined index: keterangan
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(40): App\Controllers\Webhook\DialogflowRespond->getParameters(Array, 'keterangan')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-10 20:11:00 --> Undefined index: keterangan
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(40): App\Controllers\Webhook\DialogflowRespond->getParameters(Array, 'keterangan')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-10 20:12:37 --> Undefined index: keterangan
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(40): App\Controllers\Webhook\DialogflowRespond->getParameters(Array, 'keterangan')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-10 20:13:07 --> Undefined index: keterangan
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(40): App\Controllers\Webhook\DialogflowRespond->getParameters(Array, 'keterangan')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-10 21:21:15 --> Undefined property: stdClass::$nama_wisata
+#0 C:\xampp\htdocs\wisata_indramayu\app\Models\TempatWisataModel.php(220): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 220, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(114): App\Models\TempatWisataModel->getHargaTiketWisata('glayem')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-10 21:40:43 --> Undefined property: stdClass::$nama_wisata
+#0 C:\xampp\htdocs\wisata_indramayu\app\Models\TempatWisataModel.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 231, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(93): App\Models\TempatWisataModel->getHargaTiketWisata('kuliner cimanuk')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-10 21:41:25 --> Undefined property: stdClass::$nama_wisata
+#0 C:\xampp\htdocs\wisata_indramayu\app\Models\TempatWisataModel.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 231, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(93): App\Models\TempatWisataModel->getHargaTiketWisata('kuliner cimanuk')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

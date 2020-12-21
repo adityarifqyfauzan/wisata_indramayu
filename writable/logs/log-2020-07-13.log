@@ -1,0 +1,89 @@
+CRITICAL - 2020-07-13 12:50:27 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wisata_indramayu\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Admin\Auth.php(58): CodeIgniter\Model->first()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Admin\Auth->login()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#7 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-07-13 12:51:17 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wisata_indramayu\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Admin\Auth.php(58): CodeIgniter\Model->first()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Admin\Auth->login()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth))
+#7 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-07-13 14:12:05 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/akun/...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/akun/...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pengelola\Akun.php(26): view('pengelola/akun/...', Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pengelola\Akun->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengelola\Akun))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-13 14:12:19 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/akun/...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/akun/...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pengelola\Akun.php(26): view('pengelola/akun/...', Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pengelola\Akun->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengelola\Akun))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-13 14:12:21 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/akun/...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/akun/...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pengelola\Akun.php(26): view('pengelola/akun/...', Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pengelola\Akun->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengelola\Akun))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-13 14:45:03 --> Undefined index: nama_pengelola
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\pengelola\akun\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/akun/...', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pengelola\Akun.php(28): view('pengelola/akun/...', Array)
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pengelola\Akun->index()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengelola\Akun))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-07-13 14:58:09 --> Undefined variable: validation
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\pengelola\akun\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/akun/...', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pengelola\Akun.php(28): view('pengelola/akun/...', Array)
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pengelola\Akun->index()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengelola\Akun))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-07-13 18:55:30 --> Undefined variable: validtion
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\pengelola\akun\index.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/akun/...', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pengelola\Akun.php(29): view('pengelola/akun/...', Array)
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pengelola\Akun->index()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengelola\Akun))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

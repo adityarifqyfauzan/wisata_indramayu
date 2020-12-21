@@ -1,0 +1,210 @@
+CRITICAL - 2020-08-23 09:13:00 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 09:13:13 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 09:27:07 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 09:32:55 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 10:07:49 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 10:08:02 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 10:40:26 --> syntax error, unexpected '.'
+#0 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 10:40:34 --> syntax error, unexpected '.'
+#0 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 10:44:14 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 10:44:29 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 10:45:21 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 13:14:41 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 13:16:55 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 13:18:11 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 13:19:19 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 13:21:09 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 13:22:06 --> Undefined index: status
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Webhook\DialogflowRespond.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Webhook\DialogflowRespond->index()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook\DialogflowRespond))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 19:44:53 --> Too few arguments to function App\Controllers\Wisata::index(), 0 passed in C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Wisata->index()
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-23 19:46:31 --> Too few arguments to function App\Controllers\Wisata::index(), 0 passed in C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Wisata->index()
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-23 19:46:46 --> Too few arguments to function App\Controllers\Wisata::index(), 0 passed in C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Wisata->index()
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-23 19:48:04 --> Too few arguments to function App\Controllers\Wisata::index(), 0 passed in C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Wisata->index()
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-23 19:49:33 --> Too few arguments to function App\Controllers\Wisata::index(), 0 passed in C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Wisata->index()
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-23 20:09:11 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\xampp\htdocs\wisata_indramayu\system\Model.php on line 491
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(491): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Wisata.php(59): CodeIgniter\Model->first()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Wisata->detail('1')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-23 20:09:17 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\xampp\htdocs\wisata_indramayu\system\Model.php on line 491
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(491): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Wisata.php(59): CodeIgniter\Model->first()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Wisata->detail('2')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-23 20:17:03 --> Undefined variable: kategori
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\general_layout.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(257): CodeIgniter\View\View->render('general_layout', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('detail_wisata', Array, true)
+#4 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Wisata.php(66): view('detail_wisata', Array)
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Wisata->detail('2')
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#7 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-23 20:58:56 --> Invalid file: .php
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Wisata.php(71): view('', Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Wisata->detail('1')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-23 20:59:39 --> Invalid file: .php
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Wisata.php(71): view('', Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Wisata->detail('1')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}

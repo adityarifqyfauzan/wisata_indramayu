@@ -1,0 +1,102 @@
+CRITICAL - 2020-07-03 09:21:38 --> Undefined variable: validation
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\auth_user\lupa_pass.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('auth_user/lupa_...', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesUser.php(25): view('auth_user/lupa_...')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesUser->forgotPass()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesUser))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-07-03 09:27:45 --> Undefined variable: validation
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\auth_user\lupa_pass.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('auth_user/lupa_...', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesUser.php(25): view('auth_user/lupa_...')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesUser->forgotPass()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesUser))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-07-03 09:57:26 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout_auth.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(257): CodeIgniter\View\View->render('layout_auth', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('auth_user/login', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesUser.php(11): view('auth_user/login')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesUser->login()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesUser))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-07-03 09:58:44 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout_auth.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(257): CodeIgniter\View\View->render('layout_auth', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('auth_user/login', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesUser.php(11): view('auth_user/login')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesUser->login()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesUser))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-07-03 10:44:00 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout_auth.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(257): CodeIgniter\View\View->render('layout_auth', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('auth_user/login', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesUser.php(11): view('auth_user/login')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesUser->login()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesUser))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-07-03 19:27:32 --> Undefined variable: data
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\auth_user\lupa_pass.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('auth_user/lupa_...', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesUser.php(34): view('auth_user/lupa_...', Array)
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesUser->forgotPass()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesUser))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-07-03 19:28:42 --> Undefined variable: title
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\auth_user\layout_auth.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(257): CodeIgniter\View\View->render('auth_user/layou...', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('auth_user/login', Array, true)
+#4 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesUser.php(14): view('auth_user/login')
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesUser->login()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesUser))
+#7 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-07-03 19:43:24 --> Undefined variable: session
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\auth_user\lupa_pass.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('auth_user/lupa_...', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesUser.php(34): view('auth_user/lupa_...', Array)
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesUser->forgotPass()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesUser))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-07-03 19:44:04 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wisata_indramayu\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(138): CodeIgniter\Model->first()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->forgotPassword()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}

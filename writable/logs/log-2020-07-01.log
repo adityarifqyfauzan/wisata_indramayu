@@ -1,0 +1,16 @@
+CRITICAL - 2020-07-01 04:21:50 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wisata_indramayu\system\Validation\Rules.php(234): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wisata_indramayu\system\Validation\Validation.php(294): CodeIgniter\Validation\Rules->is_unique('lizaapriliyani9...', 'email', Array, NULL)
+#5 C:\xampp\htdocs\wisata_indramayu\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('email', 'email', 'lizaapriliyani9...', Array, Array)
+#6 C:\xampp\htdocs\wisata_indramayu\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(21): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#9 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#10 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}

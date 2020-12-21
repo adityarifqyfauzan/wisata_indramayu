@@ -1,0 +1,173 @@
+CRITICAL - 2020-07-05 03:33:43 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('general_layout....')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('general_layout', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\GeneralPages.php(9): view('general_layout')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\GeneralPages->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GeneralPages))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 04:09:19 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tentang.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('tentang', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\GeneralPages.php(28): view('tentang', Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\GeneralPages->tentang()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GeneralPages))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 04:35:53 --> Cannot use object of type App\Models\DetailUserModel as array
+#0 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\User\Auth->login()
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Auth))
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-07-05 04:47:50 --> Class 'App\Filters\UserHasLogin' not found
+#0 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('login', 'before')
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2020-07-05 23:34:18 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/auth/...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/auth/...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(16): view('pengelola/auth/...', Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 23:35:23 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/auth/...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/auth/...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(16): view('pengelola/auth/...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 23:50:10 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/auth/...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/auth/...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(14): view('pengelola/auth/...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 23:50:50 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/auth/...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/auth/...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(14): view('pengelola/auth/...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 23:50:51 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/auth/...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/auth/...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(14): view('pengelola/auth/...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 23:50:52 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/auth/...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/auth/...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(14): view('pengelola/auth/...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 23:50:52 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/auth/...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/auth/...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(14): view('pengelola/auth/...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 23:50:52 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/auth/...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/auth/...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(14): view('pengelola/auth/...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 23:50:52 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/auth/...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/auth/...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(14): view('pengelola/auth/...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 23:50:53 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/auth/...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/auth/...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(14): view('pengelola/auth/...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 23:51:39 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/regis...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/regis...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(14): view('pengelola/regis...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 23:51:40 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/regis...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/regis...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(14): view('pengelola/regis...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 23:51:40 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/regis...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/regis...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(14): view('pengelola/regis...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-07-05 23:51:40 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengelola/regis...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/regis...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesPengelola.php(14): view('pengelola/regis...')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesPengelola->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesPengelola))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,343 @@
+CRITICAL - 2020-06-30 05:44:12 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/index.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('users/index.php', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('users/index.php')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:45:08 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/index.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('users/index', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('users/index')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:45:11 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/index.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('users/index', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('users/index')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:46:42 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('users/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('users/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:47:48 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('users/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('users/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:48:33 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('users/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('users/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:48:35 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('users/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('users/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:48:56 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('users/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('users/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:49:09 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:49:38 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('users/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('users/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:51:12 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('home/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('home/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:51:13 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('home/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('home/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:51:13 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('home/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('home/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:51:14 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('home/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('home/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:51:14 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('home/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('home/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:51:14 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('home/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('home/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:51:14 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('home/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('home/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:53:03 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('home/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Home.php(9): view('home/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:53:31 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/login.php')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pages.php(9): view('pages/login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pages->login()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:54:17 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages.login')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pages.login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pages.php(9): view('pages.login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pages->login()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:54:55 --> Invalid file: {0}
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages.login')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pages.login', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pages.php(9): view('pages.login')
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pages->login()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 05:57:11 --> Undefined variable: baseUrl
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\pages\login.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pages.php(9): view('pages/login')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pages->login()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-30 08:23:02 --> Call to undefined method CodeIgniter\Validation\Validation::listError()
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('auth/registrasi', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesUser.php(20): view('auth/registrasi', Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesUser->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesUser))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 08:23:41 --> Call to undefined method CodeIgniter\Validation\Validation::listError()
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('auth/registrasi', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesUser.php(20): view('auth/registrasi', Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesUser->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesUser))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 08:23:42 --> Call to undefined method CodeIgniter\Validation\Validation::listError()
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('auth/registrasi', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesUser.php(20): view('auth/registrasi', Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesUser->registrasi()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesUser))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-30 09:05:34 --> Too few arguments to function CodeIgniter\Validation\Validation::hasError(), 0 passed in C:\xampp\htdocs\wisata_indramayu\app\Views\auth\registrasi.php on line 53 and exactly 1 expected
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\auth\registrasi.php(53): CodeIgniter\Validation\Validation->hasError()
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('auth/registrasi', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\AuthPagesUser.php(20): view('auth/registrasi', Array)
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\AuthPagesUser->registrasi()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthPagesUser))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-30 11:05:04 --> strpos() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', 'C:\\xampp\\htdocs...', 709, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\Email\Email.php(709): strpos(Object(CodeIgniter\Email\Email), ',')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Email\Email.php(519): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(83): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+#4 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(54): App\Controllers\Auth\Auth->_sendEmail(Object(CodeIgniter\Email\Email))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-06-30 11:06:08 --> Trying to get property 'email' of non-object
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-30 14:48:25 --> syntax error, unexpected ']'
+#0 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-30 15:47:30 --> Object of class CodeIgniter\Email\Email could not be converted to string
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(75): App\Controllers\Auth\Auth->_sendEmail('adityarifqyfauz...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-30 15:48:18 --> Object of class CodeIgniter\Email\Email could not be converted to string
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(75): App\Controllers\Auth\Auth->_sendEmail('adityarifqyfauz...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-30 15:51:19 --> Object of class CodeIgniter\Email\Email could not be converted to string
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(75): App\Controllers\Auth\Auth->_sendEmail('adityarifqyfauz...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-30 15:53:51 --> Object of class CodeIgniter\Email\Email could not be converted to string
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(75): App\Controllers\Auth\Auth->_sendEmail('adityarifqyfauz...')
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-30 15:54:14 --> Undefined variable: baseUrl
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(75): App\Controllers\Auth\Auth->_sendEmail('adityarifqyfauz...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-30 15:55:03 --> Undefined property: App\Controllers\Auth\Auth::$baseUrl
+#0 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Auth\Auth.php(75): App\Controllers\Auth\Auth->_sendEmail('adityarifqyfauz...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Auth\Auth->registrasi()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

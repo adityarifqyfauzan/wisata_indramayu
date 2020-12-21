@@ -1,0 +1,85 @@
+CRITICAL - 2020-08-18 10:42:42 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wisata_indramayu\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wisata_indramayu\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wisata_indramayu\app\Models\TempatWisataModel.php(60): CodeIgniter\Model->findAll()
+#5 C:\xampp\htdocs\wisata_indramayu\app\Controllers\GeneralPages.php(23): App\Models\TempatWisataModel->getDataWisataAktif()
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\GeneralPages->index()
+#7 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GeneralPages))
+#8 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-08-18 10:46:34 --> Too few arguments to function App\Controllers\Wisata::index(), 0 passed in C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Wisata->index()
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 10:46:56 --> Too few arguments to function App\Controllers\Wisata::index(), 0 passed in C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Wisata->index()
+#1 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 17:09:18 --> Cannot use object of type App\Models\TempatWisataModel as array
+#0 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/dashb...', Array, true)
+#2 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pengelola\Dashboard.php(27): view('pengelola/dashb...', Array)
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pengelola\Dashboard->index()
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengelola\Dashboard))
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 17:10:57 --> Undefined variable: dataPengelola
+#0 C:\xampp\htdocs\wisata_indramayu\app\Views\pengelola\dashboard\dashboard.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\wisata_indramayu\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wisata_indramayu\system\Common.php(1087): CodeIgniter\View\View->render('pengelola/dashb...', Array, true)
+#3 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Pengelola\Dashboard.php(29): view('pengelola/dashb...', Array)
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Pengelola\Dashboard->index()
+#5 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengelola\Dashboard))
+#6 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-18 21:49:52 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\xampp\htdocs\wisata_indramayu\system\Model.php on line 447
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(447): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Admin\Dashboard.php(22): CodeIgniter\Model->findAll()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-18 21:55:27 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\xampp\htdocs\wisata_indramayu\system\Model.php on line 447
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(447): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Admin\Dashboard.php(22): CodeIgniter\Model->findAll()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-18 21:55:41 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\xampp\htdocs\wisata_indramayu\system\Model.php on line 447
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(447): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Admin\Dashboard.php(22): CodeIgniter\Model->findAll()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-18 21:55:48 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\xampp\htdocs\wisata_indramayu\system\Model.php on line 447
+#0 C:\xampp\htdocs\wisata_indramayu\system\Model.php(447): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\xampp\htdocs\wisata_indramayu\app\Controllers\Admin\Dashboard.php(22): CodeIgniter\Model->findAll()
+#2 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard->index()
+#3 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#4 C:\xampp\htdocs\wisata_indramayu\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wisata_indramayu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wisata_indramayu\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
